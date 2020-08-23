@@ -1,0 +1,255 @@
+[19-Aug-2020 11:46:27 UTC] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction('site/error')
+#2 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: site/ in C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#1 C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#2 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\sites\json-rpc-server\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\sites\json-rpc-server\web\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\sites\\json-rpc-server\\web',
+    'REMOTE_ADDR' => '::1',
+    'REMOTE_PORT' => '49801',
+    'SERVER_SOFTWARE' => 'PHP 7.3.18 Development Server',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_NAME' => 'localhost',
+    'SERVER_PORT' => '8080',
+    'REQUEST_URI' => '/',
+    'REQUEST_METHOD' => 'GET',
+    'SCRIPT_NAME' => '/index.php',
+    'SCRIPT_FILENAME' => 'C:\\sites\\json-rpc-server\\web\\index.php',
+    'PHP_SELF' => '/index.php',
+    'HTTP_HOST' => 'localhost:8080',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_DNT' => '1',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'HTTP_COOKIE' => '_identity-frontend=ca83bfb2280a1fb073a95bb0cf7d4a9c7ac62d6ef151089f23775e632a549851a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A50%3A%22%5B59276%2C%22r0Z8rL60AT4S3f9s6T84OYm4kHsm1ST5%22%2C2592000%5D%22%3B%7D; _csrf-frontend=a017114baac516043befba3b226b0d7d2f3370215d93182b4a06765db5fd0d76a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CjTTM8r_97RjezVUFuLKj14NIgEo5_OI%22%3B%7D; advanced-frontend=nrc0j635q51mk1gf0rs946gn7s; PHPSESSID=5huihdfj7k9j1md8c2c5q709dh; _csrf=72af08d50ca9b44174f5d310cc3db373f837b9d21d4560b30625fbb86104facfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CFZFr1wc27eokeBzNSq_vqRTfQf3aKBz%22%3B%7D',
+    'REQUEST_TIME_FLOAT' => 1597837586.984951,
+    'REQUEST_TIME' => 1597837586,
+]
+[21-Aug-2020 12:55:59 UTC] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction('site/error')
+#1 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\sites\json-rpc-server\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\sites\json-rpc-server\web\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\sites\\json-rpc-server\\web',
+    'REMOTE_ADDR' => '::1',
+    'REMOTE_PORT' => '53627',
+    'SERVER_SOFTWARE' => 'PHP 7.3.18 Development Server',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_NAME' => 'localhost',
+    'SERVER_PORT' => '8080',
+    'REQUEST_URI' => '/',
+    'REQUEST_METHOD' => 'POST',
+    'SCRIPT_NAME' => '/index.php',
+    'SCRIPT_FILENAME' => 'C:\\sites\\json-rpc-server\\web\\index.php',
+    'PHP_SELF' => '/index.php',
+    'HTTP_HOST' => 'localhost:8080',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '161',
+    'HTTP_CONTENT_LENGTH' => '161',
+    'HTTP_POSTMAN_TOKEN' => '1e2678bb-6a33-cca3-ab76-ac2c6e920e01',
+    'HTTP_CACHE_CONTROL' => 'no-cache',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36',
+    'CONTENT_TYPE' => 'application/json',
+    'HTTP_CONTENT_TYPE' => 'application/json',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'cors',
+    'HTTP_SEC_FETCH_DEST' => 'empty',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'HTTP_COOKIE' => '_csrf=a8a72ddcd7f8b2b7bf540a57edea0965cacb50bfd8ffd4bb0787ae63d4c4ec7ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kmAz7jjeO9yecyLlJ4wg9tqvr32vnonR%22%3B%7D',
+    'REQUEST_TIME_FLOAT' => 1598014559.665246,
+    'REQUEST_TIME' => 1598014559,
+]
+[21-Aug-2020 13:16:46 UTC] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: site/error in C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Controller.php:151
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction('site/error')
+#2 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "deb". in C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('deb', Array)
+#1 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\sites\json-rpc-server\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\sites\json-rpc-server\web\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\sites\\json-rpc-server\\web',
+    'REMOTE_ADDR' => '::1',
+    'REMOTE_PORT' => '53864',
+    'SERVER_SOFTWARE' => 'PHP 7.3.18 Development Server',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_NAME' => 'localhost',
+    'SERVER_PORT' => '8080',
+    'REQUEST_URI' => '/deb',
+    'REQUEST_METHOD' => 'GET',
+    'SCRIPT_NAME' => '/index.php',
+    'SCRIPT_FILENAME' => 'C:\\sites\\json-rpc-server\\web\\index.php',
+    'PATH_INFO' => '/deb',
+    'PHP_SELF' => '/index.php/deb',
+    'HTTP_HOST' => 'localhost:8080',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_DNT' => '1',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'HTTP_COOKIE' => '_identity-frontend=ca83bfb2280a1fb073a95bb0cf7d4a9c7ac62d6ef151089f23775e632a549851a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A50%3A%22%5B59276%2C%22r0Z8rL60AT4S3f9s6T84OYm4kHsm1ST5%22%2C2592000%5D%22%3B%7D; _csrf-frontend=a017114baac516043befba3b226b0d7d2f3370215d93182b4a06765db5fd0d76a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CjTTM8r_97RjezVUFuLKj14NIgEo5_OI%22%3B%7D; PHPSESSID=5huihdfj7k9j1md8c2c5q709dh; _csrf=72af08d50ca9b44174f5d310cc3db373f837b9d21d4560b30625fbb86104facfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CFZFr1wc27eokeBzNSq_vqRTfQf3aKBz%22%3B%7D; advanced-frontend=mb7nmj58nq8ncgfujmg33g8qg0',
+    'REQUEST_TIME_FLOAT' => 1598015806.634536,
+    'REQUEST_TIME' => 1598015806,
+]
+[23-Aug-2020 11:25:00 UTC] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction('site/error')
+#1 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\web\NotFoundHttpException: Unable to find debug data tagged with '5f415be36c64e'. in C:\sites\json-rpc-server\vendor\yiisoft\yii2-debug\src\controllers\DefaultController.php:231
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2-debug\src\controllers\DefaultController.php(111): yii\debug\controllers\DefaultController->loadData('5f415be36c64e')
+#1 [internal function]: yii\debug\controllers\DefaultController->actionView('5f415be36c64e', NULL)
+#2 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#3 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#4 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#5 C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('debug/default/v...', Array)
+#6 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\sites\json-rpc-server\web\index.php(12): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\sites\\json-rpc-server\\web',
+    'REMOTE_ADDR' => '::1',
+    'REMOTE_PORT' => '51983',
+    'SERVER_SOFTWARE' => 'PHP 7.3.18 Development Server',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_NAME' => 'localhost',
+    'SERVER_PORT' => '8080',
+    'REQUEST_URI' => '/debug/default/view?tag=5f415be36c64e',
+    'REQUEST_METHOD' => 'GET',
+    'SCRIPT_NAME' => '/index.php',
+    'SCRIPT_FILENAME' => 'C:\\sites\\json-rpc-server\\web\\index.php',
+    'PATH_INFO' => '/debug/default/view',
+    'PHP_SELF' => '/index.php/debug/default/view',
+    'QUERY_STRING' => 'tag=5f415be36c64e',
+    'HTTP_HOST' => 'localhost:8080',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_DNT' => '1',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_REFERER' => 'http://localhost:8080/debug',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'HTTP_COOKIE' => '_identity-frontend=ca83bfb2280a1fb073a95bb0cf7d4a9c7ac62d6ef151089f23775e632a549851a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A50%3A%22%5B59276%2C%22r0Z8rL60AT4S3f9s6T84OYm4kHsm1ST5%22%2C2592000%5D%22%3B%7D; _csrf-frontend=a017114baac516043befba3b226b0d7d2f3370215d93182b4a06765db5fd0d76a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CjTTM8r_97RjezVUFuLKj14NIgEo5_OI%22%3B%7D; PHPSESSID=5huihdfj7k9j1md8c2c5q709dh; advanced-frontend=jtr38drc3kn55436rnkmhgis33; _csrf=672c56de62287e11df2e4de19c421eebd30e4f5be5ac688b73f872850dc426e5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dERZyeNymz3QBjsSb6_X9NJAtR6QZwzm%22%3B%7D',
+    'REQUEST_TIME_FLOAT' => 1598181899.207248,
+    'REQUEST_TIME' => 1598181899,
+]
+[23-Aug-2020 15:56:17 UTC] An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request "site/error". in C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\ErrorHandler.php(109): yii\base\Module->runAction('site/error')
+#1 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#3 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\sites\json-rpc-server\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\sites\json-rpc-server\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\sites\json-rpc-server\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\sites\json-rpc-server\web\index.php(12): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\sites\\json-rpc-server\\web',
+    'REMOTE_ADDR' => '::1',
+    'REMOTE_PORT' => '53931',
+    'SERVER_SOFTWARE' => 'PHP 7.3.18 Development Server',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_NAME' => 'localhost',
+    'SERVER_PORT' => '8080',
+    'REQUEST_URI' => '/',
+    'REQUEST_METHOD' => 'GET',
+    'SCRIPT_NAME' => '/index.php',
+    'SCRIPT_FILENAME' => 'C:\\sites\\json-rpc-server\\web\\index.php',
+    'PHP_SELF' => '/index.php',
+    'HTTP_HOST' => 'localhost:8080',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_DNT' => '1',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'HTTP_COOKIE' => '_identity-frontend=ca83bfb2280a1fb073a95bb0cf7d4a9c7ac62d6ef151089f23775e632a549851a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A50%3A%22%5B59276%2C%22r0Z8rL60AT4S3f9s6T84OYm4kHsm1ST5%22%2C2592000%5D%22%3B%7D; _csrf-frontend=a017114baac516043befba3b226b0d7d2f3370215d93182b4a06765db5fd0d76a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22CjTTM8r_97RjezVUFuLKj14NIgEo5_OI%22%3B%7D; PHPSESSID=5huihdfj7k9j1md8c2c5q709dh; advanced-frontend=jtr38drc3kn55436rnkmhgis33; _csrf=5363965970ea5a26799c2ac4ad1f45223ff73f3ad962072114d4de5c4522b3eda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228hwtUx-V8Pg7_rG5dbRnf6BEVbB-BGAZ%22%3B%7D',
+    'REQUEST_TIME_FLOAT' => 1598198177.192057,
+    'REQUEST_TIME' => 1598198177,
+]
